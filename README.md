@@ -129,11 +129,11 @@ This stage performs the bulk of extraction work, with rules dedicated to specifi
         );
     end
 
-#### SMTP Log Type
+#### Anti-Spam Log Type
 
     rule "XG SMTP Type"
     when
-        to_string($message.log_component) == "SMTP"
+        to_string($message.log_type) == "Anti-Spam"
     then
         set_fields(
             grok(
