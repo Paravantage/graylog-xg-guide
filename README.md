@@ -2,6 +2,8 @@
 
 This guide explains the basic steps for creating a simple [Graylog](https://www.graylog.org/) Pipeline to consume logs sent from [Sophos XG](https://www.sophos.com/en-us/products/next-gen-firewall.aspx). It is not meant to be a comprehensive exploration of this topic nor the ultimate authority (or any authority for that matter) on how to accomplish this. What follows is what works for us, your mileage may vary.
 
+**PLEASE NOTE:** Our experiment with Graylog and XG ended a while back, so this guide will not be updated. If the information contained here is useful, great! If you run into any issues however we cannot help since we no longer have the environment this was running on. Best of luck!
+
 ## Prerequisites
 
 A Syslog UDP input on Graylog configured as a Syslog Server within XG. Please see the documentation for Graylog and/or XG for help with these configurations.
